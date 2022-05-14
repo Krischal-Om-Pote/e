@@ -3,7 +3,7 @@ OBJECTIVES
 2)To install the necessary software for the project.
 
 INTRODUCTION
-Python is a high-level programming language. I is a simple and easy to learn programming language. It the most trending programmig language in the world. Django is a Python-based free and open-source web framework for the use in the backend. DBeaver is a SQL client software application and a database administration tool that we are using in our project. We are using VS code for our IDE(Integrated Development Environment).
+Python is a high-level programming language. It is a simple and easy to learn programming language. It the most trending programmig language in the world. Django is a Python-based free and open-source web framework for the use in the backend. DBeaver is a SQL client software application and a database administration tool that we are using in our project. We are using VS code for our IDE(Integrated Development Environment).
 
 PROCEDURE
 
