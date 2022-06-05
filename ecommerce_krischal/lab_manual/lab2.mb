@@ -69,8 +69,8 @@ HTML/output rendering.
         python manage.py runserver
 
 # Outputs:
-![image of search in Brands module](D:\E-Commerce\Labs\Lab 2\Output\1.png)
-![image of search in Category module](D:\E-Commerce\Labs\Lab 2\Output\2.png)
-![image of search in Products module](D:\E-Commerce\Labs\Lab 2\Output\3.png)
+![image of search in Brands module](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/lab3/1.png)
+![image of search in Category module](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/lab3/2.png)
+![image of search in Products module](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/lab3/3.png)
 # Conclusion:
 Hence,i have learn how to implement the search engine in a particular module, insert the images in the database by entering the images link address and displaying it in the list view. 
