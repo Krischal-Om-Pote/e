@@ -65,4 +65,11 @@ Run the project server and verify the CRUD operations for brand, category and pr
 
     python manage.py runserve
 
-![](D:\ecommerce_project\ecommerce_krischal\ecommerce_krischal\output\Lab 4\1.png);
+OUTPUT:
+
+![](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/Lab%204/1.png);
+![](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/Lab%204/2.png);
+![](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/Lab%204/3.png);
+
+CONCLUSION:
+Hence,I have learned create a model, edit the model in an appropriate manner, and enter and evaluate the entered data in the django server database.
