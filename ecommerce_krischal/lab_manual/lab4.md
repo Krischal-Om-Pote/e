@@ -2,9 +2,9 @@
 
 # OBJECTIVES :
 
-1. Preparing templates for Django.
-2. Creating another templates and extending the base template.
-3. Creating static folder to add template there for better user interface(UI).
+1. To prepare templates for Django.
+2. To create static folder to add template there for better user interface(UI).
+3. To create another templates and extending the base template.
 
 # INTRODUCTION :
 
@@ -243,7 +243,7 @@ The syntax of the Django template language involves four constructs.
 
 # OUTPUT :
 
-![image of product model](D:\ecommerce_project\ecommerce_krischal\ecommerce_krischal\output\lab 4_5\lab4.jpeg)
+![image of product model](https://github.com/Krischal-Om-Pote/ecommerce_krischal/blob/master/ecommerce_krischal/output/lab%204_5/lab4.jpeg)
 
 # CONCLUSION :
 
