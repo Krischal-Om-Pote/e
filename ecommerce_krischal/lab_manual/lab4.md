@@ -247,4 +247,4 @@ The syntax of the Django template language involves four constructs.
 
 # CONCLUSION :
 
-Here in this lab session we understood how a base template is extended by another template and how to manupulate data and retrive from database using django
+Hence, i have learned to add free templates in Django using static folder and make the website more beautiful and appealing for the user.
