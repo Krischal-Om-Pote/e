@@ -4,6 +4,7 @@
 
 1. Preparing templates for Django.
 2. Creating another templates and extending the base template.
+3. Creating static folder to add template there for better user interface(UI).
 
 # INTRODUCTION :
 
@@ -242,7 +243,7 @@ The syntax of the Django template language involves four constructs.
 
 # OUTPUT :
 
-![image of product model](<https://github.com/rinabade/E-Commerce-Project/blob/master/lab_manual/lab4/Screenshot%20(21).png>)
+![image of product model](D:\ecommerce_project\ecommerce_krischal\ecommerce_krischal\output\lab 4_5\lab4.jpeg)
 
 # CONCLUSION :
 
