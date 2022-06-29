@@ -1,3 +1,6 @@
+from .models import Product, CartItem
+from datetime import datetime
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -52,3 +55,48 @@ def index(request):
             'search_query': q,
         }
         return render(request, 'index.html', context)
+
+
+@login_required(login_url="/admin/login")
+def cart(request):
+    # get request data
+    product_id = request.GET.get("id")
+    quantity = request.GET.get("qty")
+    if product_id:
+        # retrieve product data
+        product = Product.objects.get(id=product_id)
+    try:
+        # get cart item and increase quantity
+        cart_item = CartItem.objects.get(user=request.user, product=product)
+        cart_item.quantity += int(quantity)
+        cart_item.entered_on = datetime.now()
+    except CartItem.DoesNotExist:
+        # initialize cart item
+        cart_item = CartItem(user=request.user, product=product, quantity=int(
+            quantity), entered_on=datetime.now(),)
+# save to database
+        cart_item.save()
+# retrieve the cart items for the user from db
+    cart_items = CartItem.objects.filter(user=request.user)
+# calculate total
+    total = 0
+    for item in cart_items:
+        total += item.product.price * item.quantity
+# return view
+    context = {
+        'cart_items': cart_items,
+        'total': total,
+    }
+    return render(request, "cart.html", context)
+
+
+def removecart(request, id):
+    try:
+        # get cart item and remove it
+        product = Product.objects.get(id=id)
+        cart_item = CartItem.objects.get(user=request.user, product=product)
+        cart_item.delete()
+    except CartItem.DoesNotExist:
+        pass
+    # redirect to cart
+    return redirect(cart)
